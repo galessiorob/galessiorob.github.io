@@ -11,7 +11,7 @@
   <h1 id=bigtitle>Run 2 Brunch</h1>
   <h2 id=subtitle>The most important meal of the day is brunch!</h3>
 
-  <div class="container">
+  <div class="piccontainer">
 
    <img class="circular--square" src="chikenandwaffles.jpg" alt="Waffles" height="250" width="250">
 
@@ -25,23 +25,23 @@
 
    </div>
 
-<div id=maincontent>
+<div class="maincontent">
   <p> San Francisco is the best city in the World to run/bike/hike and then pig out, or at least in the US, the saying:
     <em>West Coast, best coast</em>
     is 100% true. Sorry NYC...<br>
   The great thing about the Bay Area is that the urban areas are surrounded by protected green (hilly) lands that perfectly complement the vibrant food scene. </p>
+</div>
 
-  <img src=https://giphy.com/gifs/OROSIUZ4jCqR2/html5 alt="This will display an animated GIF" />
+<div class=bridge>
+  <img id=bridgepic src="ggbridge.jpg" alt="Golden Gate Bridge" height="250" width="250">
+  <p id=byjen>Picture by Jen Yip</p>
+  <br>
+</div>
 
-  <img id=bridge src="ggbridge.jpg" alt="Golden Gate Bridge" height="250" width="250"><br>
-
-
-  <h2 align="center">Subscribe to our newsletter and we'll be in touch soon!</h3>
-
-<div id=forms>
-  <form name="brunch routes" action="submitform.html" method="post">
+<div class=contactus>
+<h2 id="joinus" align="center">Subscribe to our newsletter and we'll be in touch soon!</h2>
+  <form id=joinusform name="brunch routes" action="submitform.html" method="post">
     <fieldset>
-    <div>
       <label>Route distance:</label>
       <select name="distance">
         <option disabled selected value> -- select an option -- </option>
@@ -49,29 +49,24 @@
         <option value="4-6 miles">4-6 miles</option>
         <option value="7-10 miles">7-10 miles</option>
       </select>
-    </div>
     <br>
-    <div>
      <label>Tell us a bit about your *ideal* brunch place:</label>
      <br>
-     <textarea rows="4" cols="35">
+     <textarea rows="4" cols="55">
       Are you vegan, hardcore meat-eater, coffee connoisseur? We will do our best to send you relevant suggestions.
      </textarea><br>
-
       <label>Name</label>
       <input type="text" name="Name">
-    </fieldset><br>
       <label>Email</label>
       <input type="email" name="email">
-    </div>
-    </fieldset>
 
     <button type="submit">Submit</button>
   </form><br>
+  </fieldset>
 </div>
 
 <div style="text-align:center">
-<p>If you happen to be in Denver, Colorado, mey we suggest that you check this awesome group?</p>
+<p>If you happen to be in Denver, Colorado, may we suggest that you check this awesome group?</p>
 <a href="https://www.brunchrunning.com/" style="text-align:center" color:white;>brunchrunning Colorado</a>
 <p>Their site is clean, has a good layout and a clear menu. It's from Squarespace that lives off from selling great easy to use website templates, so no wonder it looks so good.</p>
 </div><br>
