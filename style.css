@@ -1,9 +1,10 @@
 body {
-  background-color:#67ae73;
+  background-color:#9ca39c;
 }
 
 #aboutus {
-  color: pink;
+  font-family: helvetica;
+  color: #edbc5c;
   padding: 10px;
   font-size: 20px;
 
@@ -11,14 +12,44 @@ body {
 
 #bigtitle {
   font-family: helvetica;
-  color: blue;
+  color: #E6AC69;
   position: relative;
   text-align: center;
+  font-size: 50px;
+  padding: 10px;
+  margin: 10px;
+  margin-color: white;
 }
 
 #subtitle {
   font-family: helvetica;
-  color: blue;
+  color: #FF9190;
   position: relative;
   text-align: center;
+}
+
+p {
+  color:white;
+  font-family: courier;
+  font-size: 20px;
+  text-align: right;
+  padding: 2px;
+  float: right;
+}
+
+#bridge {
+  float: left;
+  margin: 0px 15px 15px 0px;
+}
+
+.circular--square {
+  border-radius: 50%;
+  width: 120px;
+  height: 120px;
+  padding: 15px;
+  display:inline-block;
+}
+
+.container {
+  text-align:center;
 }
