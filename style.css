@@ -1,10 +1,10 @@
 body {
-  background-color:#9ca39c;
+  background-color:#5f8c8a;
 }
 
 #aboutus {
   font-family: helvetica;
-  color: #edbc5c;
+  color: #eddb4e;
   padding: 10px;
   font-size: 20px;
 
@@ -12,7 +12,7 @@ body {
 
 #bigtitle {
   font-family: helvetica;
-  color: #E6AC69;
+  color: #eddb4e;
   position: relative;
   text-align: center;
   font-size: 50px;
@@ -23,7 +23,7 @@ body {
 
 #subtitle {
   font-family: helvetica;
-  color: #FF9190;
+  color: #ef8775;
   position: relative;
   text-align: center;
 }
@@ -31,25 +31,37 @@ body {
 p {
   color:white;
   font-family: courier;
-  font-size: 20px;
-  text-align: right;
-  padding: 2px;
-  float: right;
+  font-size: 25px;
+  text-align: left;
+  float: left;
+  width: 800px;
+  padding: 60px;
+  margin: 25px;
 }
 
-#bridge {
-  float: left;
-  margin: 0px 15px 15px 0px;
-}
+
 
 .circular--square {
   border-radius: 50%;
   width: 120px;
   height: 120px;
+  padding: 5px;
+  display:inline-block;
+}
+
+#bridge {
+  float: left;
+  border-radius: 10%;
+  width: 250px;
+  height: 250px;
   padding: 15px;
   display:inline-block;
 }
 
 .container {
   text-align:center;
+}
+
+#forms {
+  background-image:jenrunning.jpg;
 }
