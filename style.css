@@ -58,7 +58,6 @@ div.maincontent {
 #wrapper {
     margin-left: 5%;
     width: 85%;
-    border: 3px solid #73AD21;
 }
 
 #leftcolumn {
@@ -81,9 +80,9 @@ div.maincontent {
   text-align: left;
 }
 
-li {
+#leftcolumn li {
   font-family: helvetica;
-  font-size: 17px;
+  font-size: 16px;
   margin-left: 5%;
   color: white;
 }
@@ -94,6 +93,13 @@ a {
 
 a:visited {
     color: #5f8c8a;
+}
+
+#leftcolumn p {
+  font-family: helvetica;
+  font-size: 17px;
+  margin-left: 5%;
+  color: white;
 }
 
 #bridge {
@@ -136,8 +142,8 @@ div.contactus {
   font-family: helvetica;
   margin: 25px;
   width: 85%;
-  height: 250px;
-  padding: 15px;
+  height: 200px;
+  padding: 5px;
   display:inline-block;
   margin-left: 30px;
 }
@@ -247,7 +253,7 @@ div.contactus {
   margin-left: 10%
 }
 
-li {
+#spotlist li {
   font-family: courier;
   font-size: 20px;
   color: #eddb4e;
@@ -255,6 +261,6 @@ li {
   width: 85%
   padding: 5px;
   border: 3px;
-  margin-left: 5%;
+  margin-left: 15%;
 }
 
