@@ -1,4 +1,4 @@
-body {
+#indexbackground {
   background-color:#5f8c8a;
 }
 
@@ -17,7 +17,6 @@ body {
   font-size: 50px;
   padding: 10px;
   margin: 10px;
-  margin-color: white;
 }
 
 #subtitle {
@@ -105,7 +104,6 @@ a:visited {
     vertical-align: top;
     text-align: right;
     float: right;
-    border: 3px solid #73AD21;
 }
 
 #bridgepic {
@@ -141,7 +139,6 @@ div.contactus {
   height: 250px;
   padding: 15px;
   display:inline-block;
-  border: 3px solid #73AD21;
   margin-left: 30px;
 }
 
@@ -161,3 +158,103 @@ div.contactus {
   display: block;
   text-align: center;
 }
+
+@media only screen
+  and (min-device-width: 320px)
+  and (max-device-width: 480px)
+  and (-webkit-min-device-pixel-ratio: 2) {
+}
+
+#aboutbackground {
+  background-color: #474A4E;
+}
+
+#homepagelink {
+  font-family: helvetica;
+  color: #eddb4e;
+  padding: 10px;
+  font-size: 20px;
+}
+
+#abouttitle {
+  font-family: helvetica;
+  color: #eddb4e;
+  position: relative;
+  text-align: center;
+  font-size: 45px;
+  padding: 10px;
+  margin: 20px;
+  margin-top: 30px;
+}
+
+#aboutsubtitle {
+  font-family: helvetica;
+  color: #ef8775;
+  position: relative;
+  text-align: center;
+}
+
+#aboutcontent {
+  height: 85%;
+  width: 85%;
+  margin-left: 5%;
+  position: relative;
+  align-items: center;
+  text-align: justify;
+  padding: 5px;
+  border: 3px;
+  color:white;
+  font-family: courier;
+  font-size: 20px;
+}
+
+#runsquad {
+  margin:0px auto;
+  display: block;
+  border-radius: 10%;
+  padding-left: 15px;
+  height: 250px;
+  width: 250px;
+}
+
+#bymegha {
+  font-family: helvetica;
+  color: white;
+  font-size: 15px;
+  display: block;
+  text-align: center;
+}
+
+#policy {
+  height: 85%;
+  width: 85%;
+  margin-left: 5%;
+  position: relative;
+  align-items: center;
+  text-align: justify;
+  padding: 5px;
+  border: 3px;
+  color:white;
+  font-family: courier;
+  font-size: 20px;
+}
+
+#favoritespots {
+  font-family: helvetica;
+  color: #ef8775;
+  position: relative;
+  text-align: left;
+  margin-left: 10%
+}
+
+li {
+  font-family: courier;
+  font-size: 20px;
+  color: #eddb4e;
+  display: block;
+  width: 85%
+  padding: 5px;
+  border: 3px;
+  margin-left: 5%;
+}
+
