@@ -7,7 +7,6 @@ body {
   color: #eddb4e;
   padding: 10px;
   font-size: 20px;
-
 }
 
 #bigtitle {
@@ -28,35 +27,12 @@ body {
   text-align: center;
 }
 
-div.maincontent {
-  height: 30em;
-  width: 85%;
-  margin-left: 80px;
-  position: relative;
-  align-items: center;
-  text-align: center;
-}
-
-div.maincontent p {
-  color:white;
-  font-family: courier;
-  font-size: 20px;
-  text-align: justify;
-  text-justify: inter-word;
-  float: center;
-  margin: 0;
-  position: absolute;
-  top: 22%;
-  left:50%;
-  padding-left: 100px;
-  margin-right: -50%;
-  transform: translate(-50%, -50%);
-  padding: 10px;
-  vertical-align: middle;
+.piccontainer {
+  display: block;
+  text-align:center;
   justify-content: center;
+  float: center;
 }
-
-
 
 .circular--square {
   border-radius: 50%;
@@ -66,52 +42,48 @@ div.maincontent p {
   display:inline-block;
 }
 
-#bridgepic {
+div.maincontent {
+  height: 85%;
+  width: 85%;
+  margin-left: 5%;
   position: relative;
+  align-items: center;
+  text-align: justify;
+  padding: 5px;
+  border: 3px;
+  color:white;
+  font-family: courier;
+  font-size: 20px;
+}
+
+#wrapper {
+    margin-left: 5%;
+    width: 85%;
+}
+
+#leftcolumn {
+    background: #33CCFF;
+    width: 60%;
+    float: left;
+}
+
+#bridge {
+    float: left;
+    background: #FFFFFF;
+    width: 850px;
+}
+
+#bridgepic {
   border-radius: 10%;
+  padding: 15px;
 }
 
 #byjen {
   font-family: helvetica;
-  font-size: 15px;
+  font-size: 12px;
+  color: white;
   position: relative;
-  left: 0;
   width: 100%;
-  text-align: center;
-  vertical-align: text-top;
+  text-align: left;
 }
 
-div.bridge {
-  width: 250px;
-  height: 250px;
-  padding: 10px;
-  display: inline-block
-  border-color:red;
-  vertical-align: text-top;
-}
-
-.piccontainer {
-  text-align:center;
-  display: inline-block;
-}
-
-#joinus {
-  font-family: helvetica;
-  color: #ef8775;
-  position: relative;
-  text-align: center;
-}
-}
-
-#joinusform {
-  font-family: helvetica;
-}
-
-div.contactus {
-  font-family: helvetica;
-  margin: 25px;
-  width: 700px;
-  height: 250px;
-  padding: 15px;
-  display:inline-block;
-}
