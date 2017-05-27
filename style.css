@@ -62,9 +62,26 @@ div.maincontent {
 }
 
 #leftcolumn {
-    background: #33CCFF;
+    background: #ef8775;
     width: 60%;
     float: left;
+    border-radius: 5%;
+}
+
+#lefttittle {
+  font-family: helvetica;
+  font-size: 20px;
+  margin-left: 5%;
+  color: white;
+  position: relative;
+  text-align: left;
+}
+
+li {
+  font-family: helvetica;
+  font-size: 17px;
+  margin-left: 5%;
+  color: white;
 }
 
 #bridge {
